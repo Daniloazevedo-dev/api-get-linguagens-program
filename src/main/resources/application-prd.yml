@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: mongo
+      port: 27017
+      database: linguagens-db
+      username: linguagens
+      password: program
+      authentication-database: admin
