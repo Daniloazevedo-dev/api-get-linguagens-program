@@ -12,3 +12,11 @@
 
 # Swagger
 * http://localhost:8082/api/swagger-ui/index.html#/
+
+# SonarQube
+* http://localhost:9000/projects
+* user: admin
+* password: admin
+* Alterar senha padrão ao logar pela primeira vez
+* token: Acessar Sonarqube > My Account > Security > Generate Tokens > gerar token > copiar token > colar no arquivo pom.xml
+* Testar cobertura: mvn clean verify  "-Dsonar.token=${TokenGerado}"
