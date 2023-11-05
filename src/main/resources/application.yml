@@ -4,3 +4,10 @@ spring:
 server:
   servlet:
     context-path: /api
+
+springdoc:
+  swagger-ui:
+    use-root-path: true
+    disable-swagger-default-url: true
+    path: /swagger-ui.html
+  packagesToScan: br.com.fiap.linguagens
