@@ -4,6 +4,7 @@ services:
 
   api-get-linguagens-program:
     container_name: api-get-linguagens-program
+    image: api-get-linguagens-program
     restart: always
     build: .
     ports:
